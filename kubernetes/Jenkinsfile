@@ -44,7 +44,7 @@ EOF
 
                         kubectl version --client
                         kubectl get ns
-                        kubectl apply -f manifests/
+                        kubectl apply -f kubernetes/manifests/
                     '''
                 }
             }
